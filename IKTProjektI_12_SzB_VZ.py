@@ -36,3 +36,11 @@ for i in range(n):
     if(tb[i]>ferohelyek):
         ferohelyszam+=1
 print(ferohelyszam,"helyen volt álló utas!")
+
+#d
+dupla=0
+for i in range(n):
+    if(tb[i]%50==0):
+        dupla+=1
+if(dupla!=0):
+    print("Igen.")
