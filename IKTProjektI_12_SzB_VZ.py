@@ -28,4 +28,11 @@ for i in range(0,2,n):
 
 
 print(t[i],". megállóban voltak a legtöbben!")
+
 #c
+ferohelyek=50
+ferohelyszam=0
+for i in range(n):
+    if(tb[i]>ferohelyek):
+        ferohelyszam+=1
+print(ferohelyszam,"helyen volt álló utas!")
