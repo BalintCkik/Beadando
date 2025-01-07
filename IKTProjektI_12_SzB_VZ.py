@@ -29,7 +29,7 @@ for i in range(0,2,n):
 print(tb[i],". megállóban voltak a legtöbben!")
 
 #c
-ferohelyek=50
+ferohelyek=int(input("Férőhelyek:"))
 ferohelyszam=0
 for i in range(n):
     if(tb[i]>ferohelyek):
