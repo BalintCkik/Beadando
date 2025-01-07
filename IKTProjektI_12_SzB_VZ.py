@@ -34,7 +34,7 @@ ferohelyszam=0
 for i in range(n):
     if(tb[i]>ferohelyek):
         ferohelyszam+=1
-print(ferohelyszam,"helyen volt álló utas!")
+print(ferohelyszam,"megállón keresztül volt álló utas!")
 
 #d
 dupla=0
