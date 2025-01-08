@@ -26,7 +26,7 @@ for i in range(0,2,n):
     if(max<tb[i]):
         max=tb[i]
 
-print(tb[i],". megállóban voltak a legtöbben!")
+print(". megállóban voltak a legtöbben!")
 
 #c
 ferohelyek=int(input("Férőhelyek:"))
