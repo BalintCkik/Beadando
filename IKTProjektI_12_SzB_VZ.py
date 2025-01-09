@@ -48,7 +48,7 @@ print(ferohelyszam,"megállón keresztül volt álló utas!")
 #d
 dupla=0
 for i in range(n):
-    if(ferohelyek%50==0):
+    if(tb[i]%ferohelyek==0):
         dupla+=1
 if(dupla!=0):
     print("Igen.")
